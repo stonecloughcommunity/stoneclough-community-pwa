@@ -1,0 +1,425 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Accessibility variables */
+  --accessibility-font-scale: 1;
+  --cursor-scale: 1;
+
+  /* Color tokens */
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  --popover: 255 255 255;
+  --popover-foreground: 15 23 42;
+  --primary: 37 99 235;
+  --primary-foreground: 255 255 255;
+  --secondary: 241 245 249;
+  --secondary-foreground: 15 23 42;
+  --muted: 248 250 252;
+  --muted-foreground: 100 116 139;
+  --accent: 241 245 249;
+  --accent-foreground: 15 23 42;
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --ring: 37 99 235;
+  --radius: 0.5rem;
+}
+
+/* Dark mode */
+.dark {
+  --background: 15 23 42;
+  --foreground: 248 250 252;
+  --card: 30 41 59;
+  --card-foreground: 248 250 252;
+  --popover: 30 41 59;
+  --popover-foreground: 248 250 252;
+  --primary: 59 130 246;
+  --primary-foreground: 15 23 42;
+  --secondary: 51 65 85;
+  --secondary-foreground: 248 250 252;
+  --muted: 51 65 85;
+  --muted-foreground: 148 163 184;
+  --accent: 51 65 85;
+  --accent-foreground: 248 250 252;
+  --destructive: 239 68 68;
+  --destructive-foreground: 248 250 252;
+  --border: 51 65 85;
+  --input: 51 65 85;
+  --ring: 59 130 246;
+}
+
+/* Accessibility Enhancements */
+
+/* Font scaling */
+html {
+  font-size: calc(16px * var(--accessibility-font-scale));
+}
+
+/* High contrast mode */
+.high-contrast {
+  --background: 0 0 0;
+  --foreground: 255 255 255;
+  --card: 0 0 0;
+  --card-foreground: 255 255 255;
+  --popover: 0 0 0;
+  --popover-foreground: 255 255 255;
+  --primary: 255 255 0;
+  --primary-foreground: 0 0 0;
+  --secondary: 255 255 255;
+  --secondary-foreground: 0 0 0;
+  --muted: 64 64 64;
+  --muted-foreground: 255 255 255;
+  --accent: 255 255 255;
+  --accent-foreground: 0 0 0;
+  --destructive: 255 0 0;
+  --destructive-foreground: 255 255 255;
+  --border: 255 255 255;
+  --input: 255 255 255;
+  --ring: 255 255 0;
+}
+
+.high-contrast * {
+  border-color: rgb(255 255 255) !important;
+}
+
+.high-contrast button,
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea {
+  border: 2px solid rgb(255 255 255) !important;
+}
+
+/* Yellow on black theme */
+[data-accessibility-theme="yellow-black"] {
+  --background: 0 0 0;
+  --foreground: 255 255 0;
+  --card: 0 0 0;
+  --card-foreground: 255 255 0;
+  --popover: 0 0 0;
+  --popover-foreground: 255 255 0;
+  --primary: 255 255 0;
+  --primary-foreground: 0 0 0;
+  --secondary: 64 64 0;
+  --secondary-foreground: 255 255 0;
+  --muted: 32 32 0;
+  --muted-foreground: 255 255 0;
+  --accent: 64 64 0;
+  --accent-foreground: 255 255 0;
+  --destructive: 255 0 0;
+  --destructive-foreground: 255 255 255;
+  --border: 255 255 0;
+  --input: 255 255 0;
+  --ring: 255 255 0;
+}
+
+/* Large buttons */
+.large-buttons button {
+  min-height: 48px !important;
+  min-width: 48px !important;
+  padding: 12px 24px !important;
+  font-size: 1.125rem !important;
+}
+
+.large-buttons input,
+.large-buttons select,
+.large-buttons textarea {
+  min-height: 48px !important;
+  padding: 12px 16px !important;
+  font-size: 1.125rem !important;
+}
+
+.large-buttons a {
+  min-height: 48px !important;
+  padding: 12px 16px !important;
+  font-size: 1.125rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+/* Reduced motion */
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Cursor scaling */
+html {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M2 2l8 20 6-6 20-8z" fill="black"/></svg>')
+    2 2, auto;
+}
+
+/* Enhanced focus indicators */
+*:focus {
+  outline: 3px solid rgb(var(--ring)) !important;
+  outline-offset: 2px !important;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+a:focus {
+  outline: 3px solid rgb(var(--ring)) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 3px rgba(var(--ring), 0.3) !important;
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background: rgb(var(--primary));
+  color: rgb(var(--primary-foreground));
+  border-radius: 0.25rem;
+}
+
+/* Enhanced link styling for accessibility */
+a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Better contrast for form elements */
+input,
+select,
+textarea {
+  border: 2px solid rgb(var(--border));
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: rgb(var(--ring));
+}
+
+/* Ensure minimum touch target size */
+button,
+input,
+select,
+textarea,
+a {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* High contrast borders for better definition */
+.high-contrast .border,
+.high-contrast [class*="border"] {
+  border-width: 2px !important;
+}
+
+/* Enhanced error states */
+[aria-invalid="true"] {
+  border-color: rgb(var(--destructive)) !important;
+  border-width: 2px !important;
+}
+
+/* Better spacing for readability */
+p,
+li,
+div {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+/* Ensure sufficient color contrast */
+.text-muted-foreground {
+  color: rgb(var(--muted-foreground));
+  opacity: 1;
+}
+
+/* Enhanced button states */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reduced-motion button:hover:not(:disabled) {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Print styles for accessibility */
+@media print {
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Ensure proper heading hierarchy */
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive text scaling */
+@media (max-width: 640px) {
+  html {
+    font-size: calc(14px * var(--accessibility-font-scale));
+  }
+}
+
+/* Focus management for modals and popups */
+[role="dialog"] {
+  outline: none;
+}
+
+[role="dialog"]:focus {
+  outline: 3px solid rgb(var(--ring));
+}
+
+/* Better table accessibility */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid rgb(var(--border));
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(var(--muted));
+  font-weight: 600;
+}
+
+/* Enhanced form labels */
+label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+/* Required field indicators */
+[required] + label::after,
+label[data-required]::after {
+  content: " *";
+  color: rgb(var(--destructive));
+}
+
+/* Better error message styling */
+[role="alert"] {
+  padding: 0.75rem;
+  border: 2px solid rgb(var(--destructive));
+  background-color: rgba(var(--destructive), 0.1);
+  border-radius: 0.375rem;
+  margin-top: 0.5rem;
+}
+
+/* Improved loading states */
+[aria-busy="true"] {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+/* Better progress indicators */
+[role="progressbar"] {
+  background-color: rgb(var(--muted));
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+/* Enhanced navigation */
+nav a[aria-current="page"] {
+  font-weight: 600;
+  background-color: rgb(var(--accent));
+  color: rgb(var(--accent-foreground));
+}
+
+/* Improved card accessibility */
+.card:focus-within {
+  outline: 2px solid rgb(var(--ring));
+  outline-offset: 2px;
+}
+
+/* Better spacing for touch interfaces */
+@media (pointer: coarse) {
+  button,
+  input,
+  select,
+  textarea,
+  a {
+    min-height: 48px;
+    min-width: 48px;
+  }
+}

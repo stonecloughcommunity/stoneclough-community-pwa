@@ -1,0 +1,1249 @@
+{
+  "timestamp": "2025-09-29T11:19:13.351Z",
+  "overall": {
+    "lines": {
+      "total": 13946,
+      "covered": 1022,
+      "skipped": 0,
+      "pct": 7.32
+    },
+    "statements": {
+      "total": 13946,
+      "covered": 1022,
+      "skipped": 0,
+      "pct": 7.32
+    },
+    "functions": {
+      "total": 173,
+      "covered": 36,
+      "skipped": 0,
+      "pct": 20.8
+    },
+    "branches": {
+      "total": 166,
+      "covered": 53,
+      "skipped": 0,
+      "pct": 31.92
+    },
+    "branchesTrue": {
+      "total": 0,
+      "covered": 0,
+      "skipped": 0,
+      "pct": 100
+    }
+  },
+  "summary": {
+    "totalFiles": 110,
+    "criticalFiles": 12,
+    "lowCoverageFiles": 104,
+    "recommendations": 143
+  },
+  "thresholds": {
+    "global": {
+      "branches": 80,
+      "functions": 80,
+      "lines": 80,
+      "statements": 80
+    },
+    "critical": {
+      "branches": 90,
+      "functions": 90,
+      "lines": 90,
+      "statements": 90
+    }
+  },
+  "recommendations": [
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx",
+      "metric": "branches",
+      "current": 80,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx has branches coverage (80%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx",
+      "metric": "functions",
+      "current": 33.33,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx has functions coverage (33.33%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx",
+      "metric": "lines",
+      "current": 62.99,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx has lines coverage (62.99%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx",
+      "metric": "statements",
+      "current": 62.99,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/session-timeout-warning.tsx has statements coverage (62.99%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/components/auth/two-factor-prompt.tsx has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/email-verification.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/password-reset.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/session-management.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor-middleware.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/auth/two-factor.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-client.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf-middleware.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts",
+      "metric": "branches",
+      "current": 40,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts has branches coverage (40%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts",
+      "metric": "functions",
+      "current": 44.44,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts has functions coverage (44.44%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts",
+      "metric": "lines",
+      "current": 34.63,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts has lines coverage (34.63%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts",
+      "metric": "statements",
+      "current": 34.63,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/csrf.ts has statements coverage (34.63%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/headers.ts",
+      "metric": "functions",
+      "current": 11.11,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/headers.ts has functions coverage (11.11%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/headers.ts",
+      "metric": "lines",
+      "current": 29.35,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/headers.ts has lines coverage (29.35%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/headers.ts",
+      "metric": "statements",
+      "current": 29.35,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/headers.ts has statements coverage (29.35%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts",
+      "metric": "branches",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts has branches coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts",
+      "metric": "functions",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts has functions coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts",
+      "metric": "lines",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts has lines coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "critical",
+      "priority": "critical",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts",
+      "metric": "statements",
+      "current": 0,
+      "target": 90,
+      "message": "Critical file /home/jack/Desktop/stoneclough.uk/community-pwa/lib/security/rate-limit.ts has statements coverage (0%) below critical threshold (90%)"
+    },
+    {
+      "type": "global",
+      "priority": "high",
+      "metric": "branches",
+      "current": 31.92,
+      "target": 80,
+      "message": "Global branches coverage (31.92%) is below threshold (80%)"
+    },
+    {
+      "type": "global",
+      "priority": "high",
+      "metric": "functions",
+      "current": 20.8,
+      "target": 80,
+      "message": "Global functions coverage (20.8%) is below threshold (80%)"
+    },
+    {
+      "type": "global",
+      "priority": "high",
+      "metric": "lines",
+      "current": 7.32,
+      "target": 80,
+      "message": "Global lines coverage (7.32%) is below threshold (80%)"
+    },
+    {
+      "type": "global",
+      "priority": "high",
+      "metric": "statements",
+      "current": 7.32,
+      "target": 80,
+      "message": "Global statements coverage (7.32%) is below threshold (80%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/admin/rate-limit/analytics/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/admin/rate-limit/analytics/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/backup-codes/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/backup-codes/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/disable/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/disable/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/enable/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/enable/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/setup/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/setup/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/status/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/status/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/verify/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/2fa/verify/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/resend-verification/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/resend-verification/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/reset-password/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/reset-password/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/sessions/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/sessions/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/sessions/revoke/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/sessions/revoke/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/sessions/revoke-others/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/sessions/revoke-others/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/verify-email/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/auth/verify-email/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/cron/backup-data/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/cron/backup-data/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/cron/cleanup-rate-limits/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/cron/cleanup-rate-limits/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/cron/cleanup-sessions/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/cron/cleanup-sessions/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/csrf-token/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/csrf-token/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/csrf/token/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/csrf/token/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/monitoring/performance-alert/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/monitoring/performance-alert/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/security/audit/route.ts",
+      "current": 28.57,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/security/audit/route.ts has low coverage (28.6%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/security/csp-report/route.ts",
+      "current": 33.33,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/security/csp-report/route.ts has low coverage (33.3%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/api/security/test/route.ts",
+      "current": 50,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/api/security/test/route.ts has low coverage (50.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/app/auth/callback/route.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/app/auth/callback/route.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/accessibility-toolbar.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/accessibility-toolbar.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/attend-event-button.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/attend-event-button.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/csrf-protected-form.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/csrf-protected-form.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/moderation-actions.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/moderation-actions.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/navigation.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/navigation.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/notification-permission.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/notification-permission.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/notification-settings.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/notification-settings.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/offline-indicator.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/offline-indicator.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/offline-sync.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/offline-sync.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/organizational-chart.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/organizational-chart.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/performance-monitor.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/performance-monitor.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/post-response-form.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/post-response-form.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/prayer-card.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/prayer-card.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/pwa-install-prompt.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/pwa-install-prompt.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/theme-provider.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/theme-provider.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/user-management-actions.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/user-management-actions.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/providers/session-provider.tsx",
+      "current": 33.33,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/providers/session-provider.tsx has low coverage (33.3%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/accordion.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/accordion.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/alert-dialog.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/alert-dialog.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/aspect-ratio.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/aspect-ratio.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/avatar.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/avatar.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/badge.tsx",
+      "current": 66.66,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/badge.tsx has low coverage (66.7%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/breadcrumb.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/breadcrumb.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/calendar.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/calendar.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/card.tsx",
+      "current": 71.42,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/card.tsx has low coverage (71.4%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/carousel.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/carousel.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/chart.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/chart.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/checkbox.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/checkbox.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/collapsible.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/collapsible.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/command.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/command.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/context-menu.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/context-menu.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/drawer.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/drawer.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/dropdown-menu.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/dropdown-menu.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/form.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/form.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/hover-card.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/hover-card.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/input-otp.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/input-otp.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/label.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/label.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/menubar.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/menubar.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/navigation-menu.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/navigation-menu.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/pagination.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/pagination.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/popover.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/popover.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/radio-group.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/radio-group.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/resizable.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/resizable.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/scroll-area.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/scroll-area.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/select.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/select.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/separator.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/separator.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/sheet.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/sheet.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/sidebar.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/sidebar.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/skeleton.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/skeleton.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/slider.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/slider.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/sonner.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/sonner.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/switch.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/switch.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/table.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/table.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/tabs.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/tabs.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/textarea.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/textarea.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toast.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toast.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toaster.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toaster.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toggle-group.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toggle-group.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toggle.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/toggle.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/tooltip.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/tooltip.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/use-mobile.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/use-mobile.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/use-toast.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/components/ui/use-toast.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/hooks/use-mobile.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/hooks/use-mobile.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/hooks/use-toast.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/hooks/use-toast.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/backup/database.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/lib/backup/database.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/monitoring/performance.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/lib/monitoring/performance.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/monitoring/sentry.tsx",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/lib/monitoring/sentry.tsx has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/supabase/client.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/lib/supabase/client.ts has low coverage (0.0%)"
+    },
+    {
+      "type": "low-coverage",
+      "priority": "medium",
+      "file": "/home/jack/Desktop/stoneclough.uk/community-pwa/lib/supabase/server.ts",
+      "current": 0,
+      "target": 80,
+      "message": "File /home/jack/Desktop/stoneclough.uk/community-pwa/lib/supabase/server.ts has low coverage (0.0%)"
+    }
+  ],
+  "passed": false
+}
